@@ -205,10 +205,21 @@ header p {
     .comments .comm {
         width: 33%;
         height: 190px;
-        
-        
 
     }
+
+    .comments .comm .header-comm h2,
+    .comments .comm .header-comm h3 {
+        font-size: 13px;
+        
+    }
+
+    .comments .comm .comm-text p {
+        font-size: 13px;
+        color: var(--light-gray-magenta);
+        font-weight: 500;
+    }
+    
 
     .comments .comm:first-child {
         margin-right: 1.5rem;
