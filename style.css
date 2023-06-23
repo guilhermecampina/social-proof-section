@@ -26,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: url(images/bg-pattern-top-mobile.svg) no-repeat;
     
 }
 
@@ -124,7 +125,104 @@ header p {
     
 }
 
+@media screen and (min-width: 1300px) {
+    body {
+        background: url(images/bg-pattern-top-desktop.svg) no-repeat, url(images/bg-pattern-bottom-desktop.svg);
+        
+        
+       
+    }
 
+
+    .wrapper {
+        width: 70%;
+        max-height: 70%;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+
+    }
+
+    .container header {
+        width: 60%;
+        padding: 0;
+    }
+
+    .container header h1 {
+        width: 50%;
+        text-align: start;
+        
+    }
+
+    .container header p {
+        text-align: start;
+        width: 70%;
+    }
+
+    .container .ratings {
+        width: 40%;
+
+        
+    }
+
+    .container .ratings .rate {
+        display: flex;
+        
+    }
+
+    .container .ratings .rate:first-child {
+        margin-left: -3rem;
+    }
+
+    .container .ratings .rate:last-child {
+        margin-left: 3rem;
+    }
+
+    .container .ratings .rate img {
+        width: 11px;
+        height: 11px;
+        margin-right: 0.2rem;
+    }
+
+    .container .ratings .rate p {
+        margin-left: 0.8rem;
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--darkmagenta);
+    }
+
+    .comments {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+
+    }
+
+    .comments .comm {
+        width: 33%;
+        height: 190px;
+        
+        
+
+    }
+
+    .comments .comm:first-child {
+        margin-right: 1.5rem;
+        margin-top: -2rem;
+        
+    }
+
+    .comments .comm:last-child {
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        
+    }
+
+}
 
 
 
